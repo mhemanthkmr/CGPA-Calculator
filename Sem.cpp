@@ -113,6 +113,67 @@ void sem2()
     float gpa = sum/total_credit;
     cout<<fixed<<setprecision(2)<<gpa<<endl;   
 }
+void sem3(){
+    string CS8351,CS8381,CS8382,CS8383,CS8391,CS8392,EC8395,HS8381,MA8351;
+    cin>>CS8351>>CS8381>>CS8382>>CS8383>>CS8391>>CS8392>>EC8395>>HS8381>>MA8351;
+    float sum=0,total_credit=24;
+    if(CS8351=="O")sum+=4*10;
+    else if(CS8351=="A+")sum+=4*9;
+    else if(CS8351=="A")sum+=4*8;
+    else if(CS8351=="B+")sum+=4*7;
+    else if(CS8351=="B")sum+=4*6;
+    else sum+=0;
+    if(CS8381=="O")sum+=2*10;
+    else if(CS8381=="A+")sum+=2*9;
+    else if(CS8381=="A")sum+=2*8;
+    else if(CS8381=="B+")sum+=2*7;
+    else if(CS8381=="B")sum+=2*6;
+    else sum+=0;
+    if(CS8382=="O")sum+=2*10;
+    else if(CS8382=="A+")sum+=2*9;
+    else if(CS8382=="A")sum+=2*8;
+    else if(CS8382=="B+")sum+=2*7;
+    else if(CS8382=="B")sum+=2*6;
+    else sum+=0;
+    if(CS8383=="O")sum+=2*10;
+    else if(CS8383=="A+")sum+=2*9;
+    else if(CS8383=="A")sum+=2*8;
+    else if(CS8383=="B+")sum+=2*7;
+    else if(CS8383=="B")sum+=2*6;
+    else sum+=0;
+    if(CS8391=="O")sum+=3*10;
+    else if(CS8391=="A+")sum+=3*9;
+    else if(CS8391=="A")sum+=3*8;
+    else if(CS8391=="B+")sum+=3*7;
+    else if(CS8391=="B")sum+=3*6;
+    else sum+=0;
+    if(CS8392=="O")sum+=3*10;
+    else if(CS8392=="A+")sum+=3*9;
+    else if(CS8392=="A")sum+=3*8;
+    else if(CS8392=="B+")sum+=3*7;
+    else if(CS8392=="B")sum+=3*6;
+    else sum+=0;
+    if(EC8395=="O")sum+=3*10;
+    else if(EC8395=="A+")sum+=3*9;
+    else if(EC8395=="A")sum+=3*8;
+    else if(EC8395=="B+")sum+=3*7;
+    else if(EC8395=="B")sum+=3*6;
+    else sum+=0;
+    if(HS8381=="O")sum+=1*10;
+    else if(HS8381=="A+")sum+=1*9;
+    else if(HS8381=="A")sum+=1*8;
+    else if(HS8381=="B+")sum+=1*7;
+    else if(HS8381=="B")sum+=1*6;
+    else sum+=0;
+    if(MA8351=="O")sum+=4*10;
+    else if(MA8351=="A+")sum+=4*9;
+    else if(MA8351=="A")sum+=4*8;
+    else if(MA8351=="B+")sum+=4*7;
+    else if(MA8351=="B")sum+=4*6;
+    else sum+=0;
+    float gpa = sum/total_credit;
+    cout<<fixed<<setprecision(2)<<gpa<<endl;
+}
 void sem4()
 {
     string CS8451,CS8461,CS8481,CS8491,CS8492,CS8493,CS8494,HS8461,MA8402;
