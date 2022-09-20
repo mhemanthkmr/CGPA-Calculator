@@ -113,6 +113,78 @@ void sem2()
     float gpa = sum/total_credit;
     cout<<fixed<<setprecision(2)<<gpa<<endl;   
 }
+void sem4()
+{
+    string CS8451,CS8461,CS8481,CS8491,CS8492,CS8493,CS8494,HS8461,MA8402;
+    cin>>CS8451>>CS8461>>CS8481>>CS8491>>CS8492>>CS8493>>CS8494>>HS8461>>MA8402;
+    float sum=0,total_credit=24;
+    // three
+    if(CS8451=="O") sum+=3*10;
+    else if(CS8451=="A+")sum+=3*9;
+    else if(CS8451=="A") sum+=3*8;
+    else if(CS8451=="B+")sum+=3*7;
+    else if(CS8451=="B") sum+=3*6;
+    else sum+=0;
+// two
+    if(CS8461=="O") sum+=2*10;
+    else if(CS8461=="A+")sum+=2*9;
+    else if(CS8461=="A") sum+=2*8;
+    else if(CS8461=="B+")sum+=2*7;
+    else if(CS8461=="B") sum+=2*6;
+    else sum+=0;
+// two
+    if(CS8481=="O")sum+=2*10;
+    else if(CS8481=="A+")sum+=2*9;
+    else if(CS8481=="A") sum+=2*8;
+    else if(CS8481=="B+")sum+=2*7;
+    else if(CS8481=="B") sum+=2*6;
+    else sum+=0;
+// three
+    if(CS8491=="O")sum+=3*10;
+    else if(CS8491=="A+")sum+=3*9;
+    else if(CS8491=="A") sum+=3*8;
+    else if(CS8491=="B+")sum+=3*7;
+    else if(CS8491=="B") sum+=3*6;
+    else sum+=0;
+// three
+    if(CS8492=="O")sum+=3*10;
+    else if(CS8492=="A+")sum+=3*9;
+    else if(CS8492=="A") sum+=3*8;
+    else if(CS8492=="B+")sum+=3*7;
+    else if(CS8492=="B") sum+=3*6;
+    else sum+=0;
+// three
+    if(CS8493=="O")sum+=3*10;
+    else if(CS8493=="A+")sum+=3*9;
+    else if(CS8493=="A") sum+=3*8;
+    else if(CS8493=="B+")sum+=3*7;
+    else if(CS8493=="B") sum+=3*6;
+    else sum+=0;
+// three
+    if(CS8494=="O")sum+=3*10;
+    else if(CS8494=="A+")sum+=3*9;
+    else if(CS8494=="A") sum+=3*8;
+    else if(CS8494=="B+")sum+=3*7;
+    else if(CS8494=="B") sum+=3*6;
+    else sum+=0;
+// one 
+    if(HS8461=="O")sum+=1*10;
+    else if(HS8461=="A+")sum+=1*9;
+    else if(HS8461=="A") sum+=1*8;
+    else if(HS8461=="B+")sum+=1*7;
+    else if(HS8461=="B") sum+=1*6;
+    else sum+=0;
+
+    if(MA8402=="O") sum+=4*10;
+    else if(MA8402=="A+")sum+=4*9;
+    else if(MA8402=="A") sum+=4*8;
+    else if(MA8402=="B+")sum+=4*7;
+    else if(MA8402=="B") sum+=4*6;
+    else sum+=0;
+
+    float gpa = sum/total_credit;
+    cout<<fixed<<setprecision(2)<<gpa<<endl;  
+}
 void cgpa()
 {
     float a,b;
