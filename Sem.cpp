@@ -10,7 +10,7 @@ void sem1()
     if (BS8161 == "O") sum+=2*10;
     else if (BS8161 == "A+") sum+=2*9;
     else if (BS8161 == "A") sum+=2*8;
-    else if (BSgit@github.com:mhemanthkmr/CGPA-Calculator.git8161 == "B+") sum+=2*7;
+    else if (BS8161 == "B+") sum+=2*7;
     else if (BS8161 == "B") sum+=2*6;
     else sum+=0;
     if (CY8151 == "O") sum+=3*10;
