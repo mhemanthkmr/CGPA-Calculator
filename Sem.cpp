@@ -175,7 +175,7 @@ void sem3(){
     cout<<fixed<<setprecision(2)<<gpa<<endl;
 }
 void sem4()
-{
+{   
     string CS8451,CS8461,CS8481,CS8491,CS8492,CS8493,CS8494,HS8461,MA8402;
     cin>>CS8451>>CS8461>>CS8481>>CS8491>>CS8492>>CS8493>>CS8494>>HS8461>>MA8402;
     float sum=0,total_credit=24;
@@ -243,6 +243,12 @@ void cgpa()
     cin>>a>>b;
     cout<<fixed<<setprecision(2)<<(a+b)/2<<endl;
 }
+void arrear(){
+  string a1,a2,a3,a4,a5,a6,a7,a8,a9;
+  cin>>a1>>a2>>a3>>a4>>a5>>a6>>a7>>a8>>a9;
+  if(a1=="U"||a2=="U"||a3=="U"||a4=="U"||a5=="U"||a6=="U"||a7=="U"||a8=="U"||a9=="U")cout<<1<<endl;
+  else cout<<0<<endl;
+}
 int main()
 {
 	#ifndef ONLINE_JUDGE
@@ -253,6 +259,6 @@ int main()
 	cin >> t;
 	while (t--)
 	{
-		sem4();
+		arrear();
 	}
 }
