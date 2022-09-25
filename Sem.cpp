@@ -244,9 +244,9 @@ void cgpa()
     cout<<fixed<<setprecision(2)<<(a+b)/2<<endl;
 }
 void arrear(){
-  string a,b,c,d,e,f,g,h,i;
-  cin>>a>>b>>c>>d>>e>>f>>g>>h>>i;
-  if(a=="U"||b=="U"||c=="U"||d=="U"||e=="U"||f=="U"||g=="U"||h=="U"||i=="U")cout<<1<<endl;
+  string a1,a2,a3,a4,a5,a6,a7,a8,a9;
+  cin>>a1>>a2>>a3>>a4>>a5>>a6>>a7>>a8>>a9;
+  if(a1=="U"||a2=="U"||a3=="U"||a4=="U"||a5=="U"||a6=="U"||a7=="U"||a8=="U"||a9=="U")cout<<1<<endl;
   else cout<<0<<endl;
 }
 int main()
